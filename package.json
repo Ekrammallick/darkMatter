@@ -1,5 +1,5 @@
 {
-  "name": "darkmatter",
+  "name": "DarkMatter",
   "version": "1.0.0",
   "description": "A Ghost theme.",
   "author": {
@@ -10,5 +10,5 @@
     "ghost": ">=5.0.0"
   },
   "card_assets": true,
-  "keywords": ["ghost-theme","darkmatter"]
+  "keywords": ["ghost-theme","DarkMatter"]
 }
