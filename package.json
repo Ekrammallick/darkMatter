@@ -1,0 +1,14 @@
+{
+  "name": "darkmatter",
+  "version": "1.0.0",
+  "description": "A Ghost theme.",
+  "author": {
+    "name": "Theme Creator",
+    "email": "demomallick@gmail.com"
+  },
+  "engines": {
+    "ghost": ">=5.0.0"
+  },
+  "card_assets": true,
+  "keywords": ["ghost-theme","darkmatter"]
+}

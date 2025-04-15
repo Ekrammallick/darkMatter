@@ -1,0 +1,6 @@
+# Ignore Ghost-specific folders that shouldn't be in version control
+node_modules/
+*.log
+
+# Ignore any development-specific files
+*.tmp

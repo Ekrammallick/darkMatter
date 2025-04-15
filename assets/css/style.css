@@ -1,0 +1,97 @@
+:root {
+  --gh-font-heading: 'Inter', sans-serif;
+  --gh-font-body: 'Inter', sans-serif;
+}
+body {
+  font-family: var(--gh-font-body);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--gh-font-heading);
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  animation: fadeInUp 1s ease;
+}
+article {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+article:hover {
+  transform: scale(1.03);
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Ghost required classes */
+.kg-width-wide {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.kg-width-full {
+  width: 100%;
+}
+.kg-card {
+  margin: 2rem 0;
+}
+.kg-width-wide {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.kg-width-full {
+  width: 100%;
+}
+.kg-card {
+  margin: 2rem 0;
+}
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.page-title {
+  font-size: 2.5rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+.post-feature-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Custom font fallback */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
